@@ -1,27 +1,30 @@
 .headerDiv {
-  padding-left: 500px;
+  padding-left: 400px;
   font-size: 50px;
 
+}
+.p1{
+  padding-left: 100PX;
 }
 header{
   background-color:rgb(201, 226, 240);
 }
 
-.nav {
+nav {
   background-color: aqua;
   padding-left: 350px;
   padding-top: 20px;
   position: sticky;
+  height: 80px;
   top: 0;
   z-index: 2;
 }
 .navItem {
   padding: 40px;
   position: relative;
-  height: 50px;
   color: black;
   text-align: center;
-
+  display: inline;
   text-decoration-line: none;
 }
 
