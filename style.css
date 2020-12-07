@@ -260,8 +260,26 @@ th{
 }
 a:hover{
   color: rgb(145, 144, 70);
+
+}
+a{
+  text-decoration-line: none;
 }
 
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+    border: 2px solid yellow;
+
+}  
+
+.flex-nav{
+    margin-right: 20px;
+
+} 
 footer {
   position: relative;
   left: 0;
