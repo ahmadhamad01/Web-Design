@@ -8,16 +8,19 @@
 }
 header{
   background-color:rgb(201, 226, 240);
+  border-top: 10px solid;
+  border-color:rgb(145, 144, 70);
 }
 
 nav {
-  background-color: aqua;
+  background-color: rgb(50, 123, 168);
   padding-left: 350px;
   padding-top: 20px;
   position: sticky;
   height: 80px;
   top: 0;
   z-index: 2;
+
 }
 .navItem {
   padding: 40px;
@@ -29,7 +32,7 @@ nav {
 }
 
 .dropbtn {
-  background-color: aqua;
+  background-color: rgb(50, 123, 168);
   color: black;
   padding: 16px;
   font-size: 16px;
@@ -76,6 +79,7 @@ ul {
   display: block;
 }
 .swipeImg {
+  margin-top: 20px;
   width: 100%;
 }
 .btn-container {
@@ -141,12 +145,15 @@ table{
   width: 8em
 
 }
+.header-th{
+
+}
 input{
   border-left: 2px solid;
   border-right: 2px solid;
   border-top: 2px solid;
   border-bottom: 5px solid;
-  border-color: aqua;
+  border-color: rgb(50, 123, 168);
   display: block;
   background-color: rgb(201, 226, 240);
 }
@@ -156,7 +163,7 @@ fieldset{
   border-right: 2px solid;
   border-top: 2px solid;
   border-bottom: 5px solid;
-  border-color: aqua;
+  border-color: rgb(50, 123, 168);
   background-color:rgb(201, 226, 240);
 
 }
@@ -166,7 +173,7 @@ legend{
   border-right: 2px solid;
   border-top: 2px solid;
   border-bottom: 5px solid;
-  border-color: aqua;
+  border-color: rgb(50, 123, 168);
   background-color: white;
 
 }
@@ -176,7 +183,7 @@ select{
   border-right: 2px solid;
   border-top: 2px solid;
   border-bottom: 5px solid;
-  border-color: aqua;
+  border-color: rgb(50, 123, 168);
   background-color:rgb(201, 226, 240);
 }
 textarea{
@@ -184,7 +191,7 @@ textarea{
   border-right: 2px solid;
   border-top: 2px solid;
   border-bottom: 5px solid;
-  border-color: aqua;
+  border-color: rgb(50, 123, 168);
   background-color:rgb(201, 226, 240);
 }
 .text{
@@ -197,12 +204,12 @@ form{
 
 th{
   text-align: center;
-  color: blue;
+  color: rgb(50, 123, 168);
 }
 
 .header-th{
   
-  background-color: grey;
+  background-color: rgb(201, 226, 240);
 
 }
 
@@ -211,7 +218,7 @@ th{
   border-right: 2px solid;
   border-top: 2px solid;
   border-bottom: 2px solid;
-  border-color: aqua;
+  border-color: rgb(50, 123, 168);
 }
 #yesBtn{
   float: left;
@@ -219,7 +226,7 @@ th{
   margin-bottom: 10px;
 }
 #yesBtn:hover{
-  background-color: aqua;
+  background-color: rgb(50, 123, 168);
   color: white;
 }
 #noBtn{
@@ -233,10 +240,37 @@ th{
   background-color: red;
   color: white;
 }
+.signin-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em
+}
+.signinBtn{
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: rgb(50, 123, 168);
+
+}
+.signinBtn:hover{
+  background-color: rgb(50, 123, 168);
+  color: white;
+
+}
+a:hover{
+  color: rgb(145, 144, 70);
+}
 
 footer {
-  position:relative;
-  background-color: aqua;
-  bottom:0;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(50, 123, 168);
+  color: white;
+  text-align: center;
   columns: 3;
+   border-top: 10px solid;
+  border-color:rgb(145, 144, 70);
 }
