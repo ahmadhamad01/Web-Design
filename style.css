@@ -279,6 +279,13 @@ a{
 .flex-nav{
     margin-right: 20px;
 
+}
+
+.grid-container{
+  display: grid;
+  width: 70%;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
 } 
 footer {
   position: relative;
